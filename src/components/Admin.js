@@ -67,7 +67,7 @@ const Admin = (props) => {
 
     return (
         <div>
-            <img src="https://res.cloudinary.com/todayscuisine/image/upload/v1641744759/logo1_ak20t7.png" width="320" height="200" className="rounded mx-auto d-block d-inline-block  mx-auto  align-top" alt="" />
+            <img src={process.env.REACT_APP_LOGO} width="320" height="200" className="rounded mx-auto d-block d-inline-block  mx-auto  align-top" alt="" />
 
             {cards.length == 0 && <PartnerWithUs toast={props.toast} /> ||
                 <div className="btn" style={{ display: "flex", justifyContent: "center", marginBottom: "3rem" }} >

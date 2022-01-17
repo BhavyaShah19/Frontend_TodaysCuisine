@@ -37,7 +37,7 @@ function Feedback(props) {
     return (
         <>
             <div className="mainbody" style={{ marginTop: "7rem" }}>
-                <img src="https://res.cloudinary.com/todayscuisine/image/upload/v1641744759/logo1_ak20t7.png" width="320" height="220" className="rounded mx-auto d-block d-inline-block  mx-auto  align-top" alt="" />
+                <img src={process.env.REACT_APP_LOGO} width="320" height="220" className="rounded mx-auto d-block d-inline-block  mx-auto  align-top" alt="" />
 
                 <h3 style={{ textAlign: "center" }}>Help us to improve our Website</h3>
                 <div className="container" style={containerstyle}>
